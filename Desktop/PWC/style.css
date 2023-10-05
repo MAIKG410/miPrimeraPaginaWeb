@@ -1,0 +1,48 @@
+*{
+    color: red;
+}
+.container{
+    border: dotted red 3px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    border: dotted rgb(0, 4, 255) 3px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    
+    width: 100%;
+}
+.body{
+    border: dotted rgb(60, 255, 0) 3px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body img{
+    width: 100%;
+}
+.footer{
+    border: dotted rgb(0, 255, 234) 3px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    width: 100%;
+}
